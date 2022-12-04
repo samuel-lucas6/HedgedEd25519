@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <Version>1.0.0</Version>
+        <Authors>Samuel Lucas</Authors>
+        <Title>HedgedEd25519</Title>
+        <Description>Hedged signatures for protection against fault attacks.</Description>
+        <Copyright>Copyright (c) 2022 Samuel Lucas</Copyright>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PackageProjectUrl>https://github.com/samuel-lucas6/HedgedEd25519</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/samuel-lucas6/HedgedEd25519</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <PackageTags>cryptography crypto signing signatures digital-signatures hedged-signatures ed25519</PackageTags>
+        <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Geralt" Version="2.0.0" />
+    </ItemGroup>
+
+</Project>
